@@ -5,6 +5,7 @@ import java.util.List;
 
 public class CharacterCounter {
     public static boolean validateWord(String word) {
+        System.out.println("Start");
         int highescount = 0;
         boolean firstround = true;
         List<Character> usedword = new ArrayList<>();
@@ -28,5 +29,7 @@ public class CharacterCounter {
                 return false;
         }
         return true;
+
     }
+
 }

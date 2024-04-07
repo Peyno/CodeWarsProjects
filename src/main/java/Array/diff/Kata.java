@@ -16,7 +16,7 @@ import java.util.List;
 
 public class Kata {
     public static int[] arrayDiff(int[] a, int[] b) {
-
+        System.out.println("START");
         int index;
         List<Integer> list = new ArrayList<Integer>();
 
